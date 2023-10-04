@@ -1,0 +1,255 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    background-image: url(imagens/Cabeçalho.png);
+    width: 1349px;
+    height: 170px;
+}
+
+#voltar{
+    margin-top:20px;
+    margin-left: 5px; 
+  }
+
+body
+{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #fbfcf6;
+    color: #011B1B;
+}
+
+
+.Texto
+{
+    margin: 10px 50px;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: large;
+    color:#011B1B;
+}
+
+footer
+{
+    background-image: url(imagens/Rodapé.png);
+    width: 1349px;
+    height: 80px;
+}
+
+
+#table1{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#table2{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#info{
+    color:#011B1B;
+    font-size: 35px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-left: 50px;
+}
+
+#imgP{
+    border-style: double;
+    border-color: #011B1B;
+}
+
+#img{
+border-style: double;
+border-color: 011B1B;
+margin-right: 5px;
+}
+
+#descricao{
+    font-size: large;
+    color: #011B1B;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn1,
+.btn1:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+    font-size: large;
+    border: none;
+}
+
+.btn1:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn1:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white1 {
+    background-color: #011B1B;
+    color: #ffffff;
+}
+
+.btn1::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white1::after {
+    background-color:#011B1B;
+}
+
+.btn1:hover::after {
+    transform: scaleX(1.2) scaleY(1.4);
+    opacity: 0;
+}
+
+.btn-animated1 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#PS{
+    font-size: 30px;
+}
+
+#imgA{
+    border-radius: 100%;
+    border-style: groove;
+    border-color: black;
+}
+
+#texto{
+    font-size: 10px;
+}
+
+.zoom {
+	overflow:hidden;
+}
+
+.zoom img {
+	max-width: 400px;
+    max-height: 400px;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(2.1);
+	-webkit-transform: scale(2.1);
+	transform: scale(2.1);
+}
+
+.btn2,
+.btn2:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+    font-size: medium;
+    border: none;
+    margin-top: 320px;
+    margin-left: 90px;
+}
+
+.btn2:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn2:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white2 {
+    background-color:#ffffff86;
+    color:#011B1B;
+}
+
+.btn2::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white2::after {
+    background-color: #ffffff86;
+}
+
+.btn2:hover::after {
+    transform: scaleX(1.2) scaleY(1.4);
+    opacity: 0;
+}
+
+.btn-animated2 {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.textotopicos{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #011B1B;
+    font-size: 20px;
+    margin: 30px;
+}
+
+h1{
+    margin: 30px;
+}
